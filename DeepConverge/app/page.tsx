@@ -1162,8 +1162,21 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Watch Demo pill */}
+          <a
+            href="https://www.youtube.com/watch?v=LRk8n8DcOlQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#e5e7eb] bg-white text-sm text-[#2d2d2d] hover:border-[#ff0000]/40 hover:bg-[#fff5f5] transition-colors shadow-sm"
+          >
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#ff0000">
+              <path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1C4.5 20.5 12 20.5 12 20.5s7.5 0 9.4-.6a3 3 0 002.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.8 15.5V8.5l6.4 3.5-6.4 3.5z"/>
+            </svg>
+            Watch Demo
+          </a>
+
           {/* Feature Showcase */}
-          <div className="w-full max-w-3xl mt-16 space-y-4">
+          <div className="w-full max-w-3xl mt-8 space-y-4">
             {[
               {
                 title: "Timestamps",
